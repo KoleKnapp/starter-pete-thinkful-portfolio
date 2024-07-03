@@ -18,23 +18,67 @@ h3 {
 
 /* Header */
 header {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  padding-left: 20px;
+  text-decoration: none;
+  color: #003049;
 }
 
 /* Containers */
 div {
   background-color: #eae2b7;
   margin: auto;
-  width: 600px;
+  width: 80%;
 }
 
-article {
-  padding: 50px 0;
+/* About section */
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-article div {
-  text-align: center;
-  width: 100%;
+.about-content img {
+  margin-right: 20px;
+}
+
+.about-text {
+  max-width: 400px;
+}
+
+.about-text h3 {
+  text-align: left;
+}
+
+.about-text p,
+.about-text ul {
+  text-align: left;
+}
+
+/* Portfolio section */
+.portfolio-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.portfolio-content section {
+  margin: 20px;
+}
+
+.portfolio-content p {
+  font-size: 14px;
 }
 
 /* Paragraphs */
@@ -49,10 +93,6 @@ a:link {
 
 a:hover {
   color: #f77f00;
-}
-
-nav a {
-  padding-left: 20px;
 }
 
 /* Images */
@@ -76,4 +116,5 @@ footer {
 hr {
   border: 1px solid black;
 }
+
 
