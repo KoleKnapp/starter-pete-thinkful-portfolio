@@ -19,7 +19,7 @@ h3 {
 /* Header */
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   padding: 20px;
 }
@@ -28,8 +28,12 @@ header h1 {
   margin: 0;
 }
 
+nav {
+  margin-left: 20px;
+}
+
 nav a {
-  padding-left: 20px;
+  padding-left: 10px;
   text-decoration: none;
   color: #003049;
 }
@@ -118,5 +122,6 @@ footer {
 hr {
   border: 1px solid black;
 }
+
 
 
