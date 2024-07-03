@@ -50,13 +50,15 @@ div {
 /* About section */
 .about-content {
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* Adjusted alignment */
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: 20px; /* Added margin */
 }
 
 .about-content .about-image {
   flex: 1;
+  margin-right: 20px; /* Added margin */
 }
 
 .about-content .about-text {
@@ -105,8 +107,7 @@ a:hover {
 
 /* Images */
 img {
-  width: 100%;
-  max-width: 200px;
+  max-width: 100%;
   height: auto;
 }
 
@@ -124,6 +125,7 @@ footer {
 hr {
   border: 1px solid black;
 }
+
 
 
 
