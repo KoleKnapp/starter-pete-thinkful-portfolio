@@ -79,18 +79,16 @@ div {
 /* Portfolio section */
 .portfolio-content {
   display: flex;
-  justify-content: space-between; /* Changed from space-around to space-between */
-  gap: 3px; /* Added gap */
+  justify-content: space-between;
+  gap: 10px; /* Reduced gap */
   flex-wrap: wrap;
 }
 
 .portfolio-content section {
-  margin: 3px 0;
+  margin: 10px 0; /* Reduced margin */
+  flex-basis: calc(33.33% - 10px); /* Adjusted basis to account for the gap */
 }
 
-.portfolio-content p {
-  font-size: 14px;
-}
 
 /* Paragraphs */
 p {
