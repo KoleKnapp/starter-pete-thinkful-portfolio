@@ -51,7 +51,7 @@ div {
 .about-content {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 20px; /* Added gap */
   flex-wrap: wrap;
   margin-top: 20px; /* Added margin */
@@ -62,7 +62,7 @@ div {
 }
 
 .about-content .about-text {
-  flex: 2;
+  flex: 1.5; /* Adjusted flex */
   text-align: left;
 }
 
@@ -86,9 +86,12 @@ div {
 
 .portfolio-content section {
   margin: 10px 0; /* Reduced margin */
-  flex-basis: calc(33.33% - 10px); /* Adjusted basis to account for the gap */
+  flex-basis: calc(33.33% - 20px); /* Adjusted basis to account for the gap */
 }
 
+.portfolio-content p {
+  font-size: 14px;
+}
 
 /* Paragraphs */
 p {
@@ -124,4 +127,3 @@ footer {
 hr {
   border: 1px solid black;
 }
-
