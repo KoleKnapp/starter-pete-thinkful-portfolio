@@ -50,15 +50,15 @@ div {
 /* About section */
 .about-content {
   display: flex;
-  align-items: flex-start; /* Adjusted alignment */
+  align-items: center;
   justify-content: center;
+  gap: 20px; /* Added gap */
   flex-wrap: wrap;
   margin-top: 20px; /* Added margin */
 }
 
 .about-content .about-image {
   flex: 1;
-  margin-right: 20px; /* Added margin */
 }
 
 .about-content .about-text {
@@ -73,17 +73,19 @@ div {
 .background {
   text-align: left;
   margin-top: 20px;
+  width: 100%; /* Ensures it spans full width */
 }
 
 /* Portfolio section */
 .portfolio-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between; /* Changed from space-around to space-between */
+  gap: 20px; /* Added gap */
   flex-wrap: wrap;
 }
 
 .portfolio-content section {
-  margin: 20px;
+  margin: 20px 0;
   flex-basis: 30%;
 }
 
@@ -107,7 +109,7 @@ a:hover {
 
 /* Images */
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -125,7 +127,4 @@ footer {
 hr {
   border: 1px solid black;
 }
-
-
-
 
