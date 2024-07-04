@@ -80,12 +80,12 @@ div {
 .portfolio-content {
   display: flex;
   justify-content: space-between; /* Changed from space-around to space-between */
-  gap: 20px; /* Added gap */
+  gap: 10px; /* Added gap */
   flex-wrap: wrap;
 }
 
 .portfolio-content section {
-  margin: 20px 0;
+  margin: 10px 0;
   flex-basis: 30%;
 }
 
